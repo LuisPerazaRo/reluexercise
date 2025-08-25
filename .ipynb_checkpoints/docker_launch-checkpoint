@@ -1,3 +1,0 @@
-docker build -t deeplearn:v0.1 .
-
-docker run -it -v "$(pwd)":/mnt -p 8888:8888 -e JUPYTER_TOKEN=neuralnetwork --name cetask deeplearn:v0.1 
